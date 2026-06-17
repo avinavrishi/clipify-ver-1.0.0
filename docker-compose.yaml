@@ -24,7 +24,7 @@ services:
 
   worker:
     build:
-      context: ./backend/bims-be
+      context: ./backend/bims-BE
       dockerfile: ../../backend.Dockerfile
     command: python worker/main.py
     env_file:
