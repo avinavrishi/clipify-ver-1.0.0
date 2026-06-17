@@ -13,7 +13,7 @@ services:
 
   backend:
     build:
-      context: ./backend/bims-be
+      context: ./backend/bims-BE
       dockerfile: ../../backend.Dockerfile
     ports:
       - "8000:8000"
